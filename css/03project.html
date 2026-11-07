@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign up</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      #container {
+        width:100vw;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #signup{
+        width:50vw;
+        height: 70vh;
+        background-color: rgb(69, 69, 146);
+        border-radius: 10px;
+        border:1px solid black;
+      }
+      h2{
+        text-align: center;
+      }
+      input{
+        height: 3.5vh;
+        border:none;
+        border-radius: 6px;
+        padding:0.3vw;
+        font-weight: bolder;
+      }
+      form{
+        display: flex;
+        flex-direction: column;
+        margin:0.5vw;
+        padding:1vw;
+        gap:2vw;
+      }
+      button{
+        height: 5vh;
+        width:30vw;
+        margin-left: 9vw;
+        margin-top: 3vw;
+        background-color: rgb(84, 84, 152);
+        border-radius: 8px;
+        border:1px solid black;
+      }
+      button:hover{
+        background-color: rgb(110, 110, 182);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="signup">
+        <h2>Sign Up</h2>
+        <form>
+          <input type="text" name="name" placeholder="enter name" />
+          <input type="email" name="email" placeholder="enter email " />
+          <input type="password" name="password" placeholder="set password" />
+          <input type="text" name="username" placeholder="enter username" />
+          <button>Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
